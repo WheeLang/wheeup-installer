@@ -14,8 +14,8 @@ fi
 echo "Updating package lists..."
 apt-get update -qq
 
-echo "Installing dependencies (curl)..."
-apt-get install -y curl
+echo "Installing dependencies..."
+apt-get install -y curl libyaml-cpp0.8
 
 echo "Creating directory $BIN_DIR ..."
 mkdir -p "$BIN_DIR"
