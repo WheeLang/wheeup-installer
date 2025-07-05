@@ -1,6 +1,6 @@
 # WheeUp Installer
-
-To install wheeup, use:
+## Usage
+### Debian
 ```
 curl https://raw.githubusercontent.com/WheeLang/wheeup-installer/main/debian.sh | sudo bash
 ```
